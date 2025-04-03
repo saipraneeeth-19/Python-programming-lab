@@ -1,0 +1,13 @@
+def credit(balance,amount):
+    balance= balance + amount
+    return balance
+def debit(balance,amount):
+    balance= balance - amount
+    return balance
+def check_balance(balance):
+    print(balance)
+    
+balance=0
+balance= credit(balance,2500)
+balance= debit(balance,500)
+check_balance(balance)
