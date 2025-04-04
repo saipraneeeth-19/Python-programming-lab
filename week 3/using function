@@ -1,0 +1,13 @@
+def print_list(element):
+    for i in range(limit):
+        print(element)
+        
+        
+        
+element=[]
+limit=int(input("enter the length: "))
+for i in range(limit):
+    temp=int(input())
+    element.append(temp)
+for i in element:
+    print(i,end=" ")
