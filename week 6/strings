@@ -1,0 +1,21 @@
+a="Sai praneeth"
+print(a[2])
+print(a[8])
+print(a[0:3])
+print(a[:9])
+print(a[0:])
+print(a[-6:])
+b="wrote exams"
+concatenated_string= a+" "+b
+print(concatenated_string)
+length=len(a)
+print(length)
+print(a.lower())
+print(a.upper())
+print(concatenated_string.split())
+print(concatenated_string.replace("wrote exams","is typing"))
+print(concatenated_string.find("wrote"))
+name= "sai praneeth"
+age="19"
+formatted_string= f"My name is {name} and my age is {age}"
+print(formatted_string)
